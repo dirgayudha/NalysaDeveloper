@@ -36,7 +36,9 @@ namespace Common
         [Display(Name = "Developer")]
         Developer = 3,
         [Display(Name = "Junior Developer")]
-        JuniorDeveloper = 4
+        JuniorDeveloper = 4,
+		[Display(Name = "Intern"]
+		Intern = 5
     }
 
 
