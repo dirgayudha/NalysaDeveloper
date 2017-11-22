@@ -32,13 +32,11 @@ namespace Common
         [Display(Name = "Project Manager")]
         ProjectManager = 1,
         [Display(Name = "Senior Developer")]
-        SeniorDeveloper = 2,
-        [Display(Name = "Developer")]
-        Developer = 3,
+        SeniorDeveloper = 2,        
         [Display(Name = "Junior Developer")]
-        JuniorDeveloper = 4,
+        JuniorDeveloper = 3,
 		[Display(Name = "Internship"]
-		Internship = 5
+		Internship = 4
     }
 
 
