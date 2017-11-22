@@ -1,0 +1,14 @@
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\BLL\bin\Debug\BLL.dll
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\BLL\bin\Debug\BLL.pdb
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\BLL\bin\Debug\Common.dll
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\BLL\bin\Debug\DeveloperDAL.dll
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\BLL\bin\Debug\EntityFramework.dll
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\BLL\bin\Debug\Common.pdb
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\BLL\bin\Debug\DeveloperDAL.pdb
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\BLL\bin\Debug\DeveloperDAL.dll.config
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\BLL\bin\Debug\EntityFramework.xml
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\BLL\obj\Debug\BLL.dll
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\BLL\obj\Debug\BLL.pdb
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\BLL\bin\Debug\Ninject.dll
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\BLL\bin\Debug\Ninject.xml

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Developer" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="DeveloperContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Developers" EntityType="Developer.Developer" />
+    <EntitySet Name="Skills" EntityType="Developer.Skill" />
+    <EntitySet Name="SkillLists" EntityType="Developer.SkillList" />
+    <AssociationSet Name="DeveloperSkill" Association="Developer.DeveloperSkill">
+      <End Role="Developer" EntitySet="Developers" />
+      <End Role="Skill" EntitySet="Skills" />
+    </AssociationSet>
+    <AssociationSet Name="SkillSkillList" Association="Developer.SkillSkillList">
+      <End Role="Skill" EntitySet="Skills" />
+      <End Role="SkillList" EntitySet="SkillLists" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Developer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Age" Type="String" Nullable="false" />
+    <Property Name="BirthDate" Type="String" Nullable="false" />
+    <NavigationProperty Name="Skills" Relationship="Developer.DeveloperSkill" FromRole="Developer" ToRole="Skill" />
+  </EntityType>
+  <EntityType Name="Skill">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" Nullable="false" />
+    <NavigationProperty Name="Developer" Relationship="Developer.DeveloperSkill" FromRole="Skill" ToRole="Developer" />
+    <Property Name="DeveloperId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="SkillList" Relationship="Developer.SkillSkillList" FromRole="Skill" ToRole="SkillList" />
+  </EntityType>
+  <EntityType Name="SkillList">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SkillName" Type="String" Nullable="false" />
+    <NavigationProperty Name="Skills" Relationship="Developer.SkillSkillList" FromRole="SkillList" ToRole="Skill" />
+  </EntityType>
+  <Association Name="DeveloperSkill">
+    <End Type="Developer.Developer" Role="Developer" Multiplicity="1" />
+    <End Type="Developer.Skill" Role="Skill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Developer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Skill">
+        <PropertyRef Name="DeveloperId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SkillSkillList">
+    <End Type="Developer.Skill" Role="Skill" Multiplicity="*" />
+    <End Type="Developer.SkillList" Role="SkillList" Multiplicity="1" />
+  </Association>
+</Schema>

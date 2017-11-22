@@ -1,0 +1,5 @@
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\Common\bin\Debug\Common.dll
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\Common\bin\Debug\Common.pdb
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\Common\obj\Debug\Common.dll
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\Common\obj\Debug\Common.pdb

@@ -1,0 +1,13 @@
+﻿@model NalysaDeveloper.Models.Skills
+
+@Html.HiddenFor(x => x.ID)
+@if (ViewContext.RouteData.Values["action"].ToString() == "Details")
+{
+    @Html.CheckBoxFor(x => x.HaveSkill, htmlAttributes: new { @disabled = "disabled" })
+}
+else
+{
+    @Html.CheckBoxFor(x => x.HaveSkill)
+}
+@Html.LabelFor(x => x.HaveSkill, Model.SkillName)
+</br>

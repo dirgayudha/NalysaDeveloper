@@ -1,0 +1,12 @@
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\DeveloperDAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\DeveloperDAL\bin\Debug\DeveloperDAL.dll.config
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\DeveloperDAL\bin\Debug\DeveloperDAL.dll
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\DeveloperDAL\bin\Debug\DeveloperDAL.pdb
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\DeveloperDAL\bin\Debug\Common.dll
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\DeveloperDAL\bin\Debug\EntityFramework.dll
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\DeveloperDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\DeveloperDAL\bin\Debug\Common.pdb
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\DeveloperDAL\bin\Debug\EntityFramework.xml
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\DeveloperDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\DeveloperDAL\obj\Debug\DeveloperDAL.dll
+C:\Users\dirgayudha\documents\visual studio 2017\Projects\NalysaDeveloper\DeveloperDAL\obj\Debug\DeveloperDAL.pdb
